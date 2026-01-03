@@ -98,7 +98,7 @@ export default function Home() {
   }, [location.city || location.state || location.country || isbuttonClicked]);
 
   return (
-    <div className="min-h-screen bg-gray-100 text-black p-6">
+    <div className="min-h-screen p-6">
       <h1 className="text-4xl font-bold text-center mb-8">WEATHER DASHBOARD</h1>
 
       {/* Search */}
