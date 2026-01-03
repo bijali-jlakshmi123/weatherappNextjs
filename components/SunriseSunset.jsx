@@ -3,14 +3,16 @@ import moment from "moment";
 const SunriseSunset = ({ sunrise, sunset }) => {
   return (
     <div className="bg-gray-900 p-8 rounded-lg mb-3">
-      <h2 className="text-2xl font-bold mb-4">Sunrise & Sunset</h2>
+      <h2 className="text-2xl text-white font-bold mb-4">Sunrise & Sunset</h2>
       <div className="flex items-center justify-center">
-        <p className="text-lg mb-2">
+        <p className="text-lg mb-2 text-white">
           Sunrise: {moment.unix(sunrise).format("HH:mm")}
         </p>
       </div>
       <div className="flex items-center justify-center">
-        <p className="text-lg">Sunset: {moment.unix(sunset).format("HH:mm")}</p>
+        <p className="text-lg text-white">
+          Sunset: {moment.unix(sunset).format("HH:mm")}
+        </p>
       </div>
     </div>
   );

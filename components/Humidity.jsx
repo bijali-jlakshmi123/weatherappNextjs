@@ -11,11 +11,11 @@ const HumidityInfo = ({ humidity }) => {
   }
   return (
     <div className="bg-gray-900 p-8 rounded-lg mb-3">
-      <h2 className="text-2xl font-bold mb-4">Humidity</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white">Humidity</h2>
       <div className="flex items-center justify-center">
-        <p className="text-xl mb-2 font-bold">{humidity}%</p>
+        <p className="text-xl mb-2 font-bold text-white">{humidity}%</p>
       </div>
-      <p className="text-md">{humidityDescription}</p>
+      <p className="text-md text-white">{humidityDescription}</p>
     </div>
   );
 };

@@ -10,11 +10,13 @@ const VisibiltyInfo = ({ visibilty }) => {
   }
   return (
     <div className="bg-gray-900 p-8 rounded-lg mb-3">
-      <h2 className="text-2xl font-bold mb-4">Visibility</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white">Visibility</h2>
       <div className="flex items-center justify-center">
-        <p className="text-lg font-semibold">Current Visibility:{visibilty}</p>
+        <p className="text-lg font-semibold text-white">
+          Current Visibility:{visibilty}
+        </p>
       </div>
-      <p className="text-md">{visibilityDescription}</p>
+      <p className="text-md text-white">{visibilityDescription}</p>
     </div>
   );
 };

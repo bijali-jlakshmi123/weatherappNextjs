@@ -14,14 +14,14 @@ const PressureInfo = ({ pressure }) => {
   };
   return (
     <div className="bg-gray-900 p-8 rounded-lg mb-3">
-      <h2 className="text-2xl font-bold mb-4">Pressure</h2>
-      <div className="flex items-center justify-center">
+      <h2 className="text-2xl font-bold mb-4 text-white">Pressure</h2>
+      <div className="flex items-center justify-center text-white">
         <FaTachometerAlt className="mr-2" />
-        <p className="text-lg font-semibold">
+        <p className="text-lg font-semibold text-white">
           Current Pressure:{pressure} hPa{" "}
         </p>
       </div>
-      <p className="text-md">{getDescription()}</p>
+      <p className="text-md text-white">{getDescription()}</p>
     </div>
   );
 };

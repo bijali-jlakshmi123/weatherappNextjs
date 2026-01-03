@@ -65,7 +65,9 @@ const FiveDaysGraph = ({ forecastData }) => {
 
   return (
     <div className="bg-gray-900 p-8 rounded-lg h-full">
-      <h2 className="text-2xl font-bold mb-4">5-Day Forecast Graph</h2>
+      <h2 className="text-2xl text-white font-bold mb-4">
+        5-Day Forecast Graph
+      </h2>
       <div className="h-64">
         <canvas ref={chartRef} />
       </div>

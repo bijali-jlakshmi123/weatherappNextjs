@@ -38,7 +38,7 @@ const Weather = ({ currentWeather }) => {
       <h2 className="text-[px] font-bold text-center">{currentWeather.name}</h2>
 
       {/* DATE & TIME */}
-      <p className="text-base text-gray-400 text-center mt-2">
+      <p className="text-base text-white-400 text-center mt-2">
         {moment.unix(currentWeather.dt).format("dddd")} •{" "}
         {formatDateTime(currentWeather.dt)}
       </p>
@@ -59,7 +59,7 @@ const Weather = ({ currentWeather }) => {
         </div>
 
         {/* RIGHT */}
-        <div className="text-right text-base text-gray-300 h-full w-full">
+        <div className="text-right text-base text-white h-full w-full">
           <p>High: {currentWeather.main.temp_max}°C</p>
           <p>Low: {currentWeather.main.temp_min}°C</p>
         </div>

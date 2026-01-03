@@ -44,8 +44,10 @@ const HourlyWeather = ({ hourlyTemperatureData }) => {
 
   return (
     <div className="bg-gray-900 p-6 rounded-lg h-[80vh] w-full">
-      <h2 className="text-xl font-bold mb-4 text-center">Hourly Weather</h2>
-      <div className="h-full w-full">
+      <h2 className="text-xl font-bold mb-4 text-center text-white">
+        Hourly Weather
+      </h2>
+      <div className="h-full w-full text-white">
         <canvas ref={canvasRef} />
       </div>
     </div>
